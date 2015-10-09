@@ -1,4 +1,4 @@
-package pd.ecp1.singleton;
+package pd.ecp1.singleton.factory;
 
 import java.util.HashMap;
 import java.util.Map;
