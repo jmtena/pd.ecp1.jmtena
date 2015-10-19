@@ -16,7 +16,7 @@ public class ReferencesFactory {
         this.reference = 0;
     }
     
-    public ReferencesFactory getReferencesFactory(){
+    public static ReferencesFactory getFactory(){
     	return referencesFactory;
     }
 
