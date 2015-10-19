@@ -4,10 +4,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ReferencesFactory {
-	//Creación temprana
-	private static ReferencesFactory instance = new ReferencesFactory();
+	//Utilizamos creación temprana
+	private static final ReferencesFactory referencesFactory = new ReferencesFactory();
 	
     private Map<String, Integer> references;
+
     private int reference;
 
     private ReferencesFactory() {
@@ -15,16 +16,10 @@ public class ReferencesFactory {
         this.reference = 0;
     }
     
-    public static ReferencesFactory getInstance(){
-    	 //Aquí no se pone nada porque hemos hecho creación temprana
-    	
-         return ReferencesFactory.instance;
+    public ReferencesFactory getReferencesFactory(){
+    	return referencesFactory;
     }
 
-    public static void removeInstance(){
-    	instance = new ReferencesFactory();
-    }
-    
     public int getReference(String key) {
         Integer result = this.references.get(key);
         if (result == null) {
