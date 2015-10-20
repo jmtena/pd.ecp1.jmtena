@@ -1,5 +1,7 @@
 package pd.ecp1.state.connection;
 
+import pd.ecp1.state.connection.Link;
+
 public final class LinkMock implements Link {
     private String msg;
 
