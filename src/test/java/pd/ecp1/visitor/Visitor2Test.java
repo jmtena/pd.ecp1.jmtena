@@ -16,7 +16,7 @@ public class Visitor2Test {
     private Collection<Element> coleccion = new ArrayList<Element>();
 
     @Before
-    public void ini() {
+    public void ini() { 
         coleccion.add(new ElementA());
         coleccion.add(new ElementA());
         coleccion.add(new ElementB());
