@@ -3,7 +3,7 @@ package pd.ecp1.visitor;
 import java.util.ArrayList;
 import java.util.Collection;
 
-import upm.jbb.IO;
+//import upm.jbb.IO;
 
 public final class VisitorMain {
     private Collection<Element> coleccion = new ArrayList<Element>();
@@ -23,6 +23,6 @@ public final class VisitorMain {
     }
 
     public static void main(String[] args) {
-        IO.getIO().addView(new VisitorMain());
+        //IO.getIO().addView(new VisitorMain());
     }
 }

@@ -8,9 +8,9 @@ import java.util.Collection;
 import org.junit.Before;
 import org.junit.Test;
 
-import es.upm.miw.pd.visitor.ElementA;
-import es.upm.miw.pd.visitor.ElementB;
-import es.upm.miw.pd.visitor.Element;
+import pd.ecp1.visitor.ElementA;
+import pd.ecp1.visitor.ElementB;
+import pd.ecp1.visitor.Element;
 
 public class Visitor2Test {
     private Collection<Element> coleccion = new ArrayList<Element>();
