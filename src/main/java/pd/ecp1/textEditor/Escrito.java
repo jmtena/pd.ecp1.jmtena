@@ -3,7 +3,11 @@ package pd.ecp1.textEditor;
 public abstract class Escrito extends Documento{
 	protected java.util.List<Documento> list;
 	
-	public Escrito(){
+	protected Escrito(){
 		this.list = new java.util.ArrayList<Documento>();
+	}
+	
+	protected int size(){
+		return list.size();
 	}
 }

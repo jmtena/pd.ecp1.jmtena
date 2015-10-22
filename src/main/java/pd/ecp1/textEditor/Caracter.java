@@ -16,20 +16,21 @@ public class Caracter extends Documento{
 	}
 	
 	@Override
-	public void addCaracter(Caracter c){} //No se hace nada. Se ignora
+	public void add(Caracter c){} //No se hace nada. Se ignora
 	
 	@Override
-	public void addParrafo(Parrafo p){} //No se hace nada. Se ignora
+	public void add(Parrafo p){} //No se hace nada. Se ignora
 	
 	@Override
-	public void addTexto(Texto txt){} //No se hace nada. Se ignora
+	public void add(Texto txt){} //No se hace nada. Se ignora
 	
 	@Override
-	public void removeCaracter(Caracter c){} //No se hace nada. Se ignora
+	public void remove(Caracter c){} //No se hace nada. Se ignora
 	
 	@Override
 	public void remove(Parrafo p){} //No se hace nada. Se ignora
 	
 	@Override
 	public void remove(Texto txt){} //No se hace nada. Se ignora
+	
 }

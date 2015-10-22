@@ -18,14 +18,15 @@ public class FactoriaCaracter {
 	}
 	
 	public Caracter getCaracter(char c){
-		Character key = new Character(c);
+		char cMinusc = (c + "").toLowerCase().charAt(0);
+		Character key = new Character(cMinusc);
 		
 		if (map.containsKey(key)){
 			return map.get(key);
 		}
 		else{
 			//Construcción perezosa
-			Caracter cr = new Caracter(c);
+			Caracter cr = new Caracter(cMinusc);
 			map.put(key,cr);
 			return cr;
 		}
